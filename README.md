@@ -38,6 +38,11 @@
 * DAO (Handle all the CRUD Operations for the Models) - com.assignment.rest.models.dao
   * DAOFacade - Contain implementaion of the CRUD operations.This is a Genaric class.Performs according to the requested Model
   * HotelDAO - Supplly Hotel model to the DAOFacade
+* Controller (Contain REST opration implementation) - com.assignment.rest.controllers
+  * HotelController
+  
+##Android - Mobile Client
+
 
 
 
