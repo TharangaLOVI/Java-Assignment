@@ -11,9 +11,9 @@
 
     		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
     		<!-- local -->
-    		<property name="url" value="jdbc:mysql://localhost:3306/assignment_db" />
-    		<property name="username" value="root" />
-    		<property name="password" value="" />
+    		<property name="url" value="jdbc:mysql://localhost:3306/<data_base>" />
+    		<property name="username" value="<user_name>" />
+    		<property name="password" value="<password>" />
 		
 	      </bean>
 	      <!-- Data Source End -->
