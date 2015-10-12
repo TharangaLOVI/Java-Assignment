@@ -28,6 +28,8 @@
   *  <http://localhost:8081/assignment_rest/hotel/name/{name}>
 *  Find By Hotel Name Keyword - GET /hotel/keyword/{keyword}
   *  <http://localhost:8081/assignment_rest/hotel/keyword/{keyword}>
+*  Add New Hotel - POST /hotel
+  *  <http://localhost:8081/assignment_rest/hotel/>
 
 
 
