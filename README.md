@@ -46,15 +46,14 @@
 * Server Location Configuration
   * AndroidManifest - Assignment\app\src\main\AndroidManifest.xml
     * ```xml
-         ....
-      	<application
-         .....
+    	.....
+        <application
+        
         <!-- http://host_address -->
         <meta-data
             android:name="server_base_url"
-            android:value="http://<server_location>assignment_rest" />
+            android:value="http://192.168.1.101:8081/assignment_rest" />
     </application>
-     ```
 
 
 
