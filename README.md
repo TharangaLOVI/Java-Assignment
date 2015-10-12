@@ -58,7 +58,9 @@
 * MainActivity - com.assignment
   * this is the application's launcher activity.And contaion implementaion of the Navigator
 * AddHotelFragment - com.assignment.fragments
-  * Perform the Add new Hotel operation. User provides hotel name and hotel address.Hotel current location is get by using Android Location API(latitude and longitude). Then the new hotel details are sent to the REST service.[LegoRoid](https://github.com/TharangaLOVI/LegoRoid) lib is used as a HTTP client.
+  * Perform the Add new Hotel operation. User provides hotel name and hotel address.Hotel current location is get by using Android Location API(latitude and longitude). Then the new hotel details are sent to the REST service.[LegoRoid](https://github.com/TharangaLOVI/LegoRoid) lib is used as a Android HTTP client.
+* SearchHotelsFragment - com.assignment.fragments
+  * User is able to search hotel by name(or name keyword).application call the /hotel/keyword/{keyword} REST operation, if there are any hotels available for the requested name , application list down the hotel details. 
 
   
 
