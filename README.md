@@ -31,6 +31,11 @@
 *  Add New Hotel - POST /hotel
   *  <http://localhost:8081/assignment_rest/hotel/>
 
+####Source Code
+* Model(Persistence layer - Mapped to Data Base) - com.assignment.rest.models
+  * Hotel
+  * Address
+
 
 
   
