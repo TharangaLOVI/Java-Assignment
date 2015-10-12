@@ -46,9 +46,8 @@
 * Server Location Configuration
   * AndroidManifest - Assignment\app\src\main\AndroidManifest.xml
     * ```xml
-    	.....
+
         <application
-        
         <!-- http://host_address -->
         <meta-data
             android:name="server_base_url"
