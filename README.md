@@ -2,7 +2,6 @@
 
 ##REST Service - Web Application
 ####Configurations
-Data Base
-assignment_rest\src\main\webapp\WEB-INF
+1. Data Base Configuration
 
 
