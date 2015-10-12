@@ -24,8 +24,8 @@
   *  <http://localhost:8081/assignment_rest/hotel/>
 *  Find By Id - GET /hotel/{id}
   *  <http://localhost:8081/assignment_rest/hotel/{id}>
-*  Find By Id - GET /hotel/{id}
-  *  <http://localhost:8081/assignment_rest/hotel/{id}>
+*  Find By Hotel Name - GET /hotel/name/{name}
+  *  <http://localhost:8081/assignment_rest/hotel/name/{name}>
 
 
 
