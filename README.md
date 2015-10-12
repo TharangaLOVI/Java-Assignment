@@ -26,6 +26,8 @@
   *  <http://localhost:8081/assignment_rest/hotel/{id}>
 *  Find By Hotel Name - GET /hotel/name/{name}
   *  <http://localhost:8081/assignment_rest/hotel/name/{name}>
+*  Find By Hotel Name Keyword - GET /hotel/keyword/{keyword}
+  *  <http://localhost:8081/assignment_rest/hotel/keyword/{keyword}>
 
 
 
