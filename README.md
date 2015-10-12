@@ -4,7 +4,8 @@
 ####Configurations
 * Data Base Configuration
   * mvc-dispatcher-servlet - assignment_rest\src\main\webapp\WEB-INF\mvc-dispatcher-servlet.xml
-    * ```
+    * ```xml
+    	.....
         <!-- Data Source -->
 	      <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 
@@ -16,6 +17,7 @@
 		
 	      </bean>
 	      <!-- Data Source End -->
+	      ....
       ```
 
   
