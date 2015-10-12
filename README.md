@@ -32,7 +32,7 @@
   *  <http://localhost:8081/assignment_rest/hotel/>
 
 ####Source Code
-* Model (Persistence layer - Mapped to Data Base) - com.assignment.rest.models
+* Model (Persistence layer - Mapped with Data Base) - com.assignment.rest.models
   * Hotel
   * Address
 * DAO (Handle all the CRUD Operations for the Models) - com.assignment.rest.models.dao
@@ -54,7 +54,11 @@
     
 
 
-
+####Source Code
+* MainActivity - com.assignment
+  * this is the application's launcher activity.And contaion implementaion of the Navigator
+* AddHotelFragment - com.assignment.fragments
+  * Perform the Add new Hotel operation. User provides hotel name and hotel address.Hotel current location is get by using Android Location API(latitude and longitude). Then the new hotel details are sent to the REST service.[LegoRoid](https://github.com/TharangaLOVI/LegoRoid) lib is used as a HTTP client.
 
   
 
