@@ -2,7 +2,7 @@
 
 ##REST Service - Web Application
 ####Configurations
-*Data Base Configuration
+1.Data Base Configuration
   
 
 
