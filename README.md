@@ -17,9 +17,11 @@
 		
 	      </bean>
 	      <!-- Data Source End -->
-	  
+	      
 	 
-
+####REST Operations
+*  List All Hotels - GET /hotel
+  *  <http://localhost:8081/assignment_rest/hotel/>
 
 
   
