@@ -2,8 +2,9 @@
 
 ##REST Service - Web Application
 ####Configurations
-1.Data Base Configuration
-⋅⋅* dddd
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
   
 
 
