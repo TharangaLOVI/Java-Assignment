@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2979ff</color>
+    <color name="colorPrimaryDark">#2962ff</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#82b1ff</color>
+    <color name="colorTextLbl">#424242</color>
+
+    <color name="app_primary">#455A64</color>
+    <color name="app_primary_dark">#37474F</color>
+
+    <array name="progress_colors">
+        <item>@color/colorPrimary</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="in_colors">
+        <item>#FFB5D4FF</item>
+        <item>#FFDEEAFC</item>
+        <item>#FFFAFFFE</item>
+    </array>
+
+    <!-- List View Custom Colors-->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <!-- Sentiment Color-->
+    <color name="sentiment_positive">#00C853</color>
+    <color name="sentiment_negative">#F44336</color>
+    <color name="sentiment_neutral">#0091EA</color>
+    <color name="sentiment_warning">#FF5722</color>
+
+</resources>

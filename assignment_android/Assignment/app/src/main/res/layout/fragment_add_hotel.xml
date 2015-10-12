@@ -1,0 +1,129 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    >
+
+    <com.rey.material.widget.ProgressView
+        android:id="@+id/progress_pv_linear"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        app:pv_autostart = "false"
+        app:pv_circular="false"
+        app:pv_progressStyle="@style/LinearProgressDrawableStyle"
+        app:pv_progressMode="indeterminate"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="9">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_sign_up_form"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:text="Hotel Name"
+                android:textColor="@color/colorTextLbl"
+                android:textSize="@dimen/title_text"
+                android:id="@+id/txt_label_hotel_name"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/edt_hotel_name"
+                android:layout_below="@+id/txt_label_hotel_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Input Hotel Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:text="Hotel Address"
+                android:textColor="@color/colorTextLbl"
+                android:textSize="@dimen/title_text"
+                android:id="@+id/txt_label_hotel_address"
+                android:layout_below="@+id/edt_hotel_name"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:ems="10"
+                android:id="@+id/edt_hotel_address"
+                android:layout_below="@+id/txt_label_hotel_address"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:hint="Input Hotel Address"
+                android:imeOptions="actionDone"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_sign_up_form2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_weight="1"
+        >
+
+
+        <com.rey.material.widget.Button
+            style="@style/RaiseWaveColorButtonRippleStyle"
+            android:layout_height="@dimen/bt_height"
+            android:textColor="#FFFFFFFF"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            app:rd_delayClick="true"
+            android:layout_width="wrap_content"
+            android:text="Add"
+            android:id="@+id/btn_add_hotel"
+            android:layout_alignParentStart="true"
+            />
+
+        <com.rey.material.widget.Button
+            style="@style/RaiseWaveColorButtonRippleStyle"
+            android:layout_height="@dimen/bt_height"
+            android:textColor="#FFFFFFFF"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            app:rd_delayClick="true"
+            android:layout_width="wrap_content"
+            android:text="Clear"
+            android:id="@+id/btn_clear"
+            android:layout_alignParentRight="true"
+            />
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+
